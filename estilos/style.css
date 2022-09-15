@@ -52,4 +52,21 @@ main{
 
 form{
     padding: 5px;
+    padding-top: 10px;
+}
+
+input{
+    background-color: rgba(136, 216, 203, 0.822);
+    padding: 5px;
+    border-radius: 5px;
+    width: 180px;
+
+h1{
+    text-align: center;
+}
+
+@media screen and (orientation: landscape) {
+    #login > imagem{
+        background-image: url(../imagens/abacaxi.jpg);
+    }
 }
