@@ -35,6 +35,7 @@ main{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    transition: 0.300s;
 }
 
 #login > #imagem{
@@ -91,13 +92,13 @@ h1{
 
     #login{
         width: 600px;
-        height: 300px;
+        height: 250px;
         text-align: center;
     }
 
 
     #login > #imagem{
-        height: 300px;
+        height: 250px;
         width: 200px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -113,6 +114,36 @@ h1{
     .botao{
         width: 350px;
     }
+}
 
+@media screen and (min-width: 993px) {
+    body{
+        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+    }
 
+    #login{
+        width: 800px;
+        height: 300px;
+        text-align: center;
+    }
+   
+    #login >#imagem{
+        width: 400px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        float: right;
+    }
+
+    #iemail, #isenha{
+        padding: 12px;
+    }
+
+    .botao{
+        padding: 12px;
+    }
+
+    
 }
