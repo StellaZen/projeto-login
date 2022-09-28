@@ -24,7 +24,6 @@ main{
 }
 
 
-
 #login{
     position: absolute;
     top: 50%;
@@ -66,6 +65,7 @@ form{
     margin: 3px;
     border: none;
 }
+
 
 .botao{
     display: block;
@@ -118,6 +118,7 @@ h1{
     }
 }
 
+
 @media screen and (min-width: 993px) {
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
@@ -146,6 +147,4 @@ h1{
     .botao{
         padding: 12px;
     }
-
-    
 }
